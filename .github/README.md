@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cost-optimization-hub`](https://www.npmjs.com/package/@aws-sdk/client-cost-optimization-hub/v/3.994.0).
+[`@aws-sdk/client-cost-optimization-hub`](https://www.npmjs.com/package/@aws-sdk/client-cost-optimization-hub/v/3.995.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.994.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.995.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-mJ8y6FN73Ue1PcP0+WAIWByw1K9pn3sf1q8QhXPiW2q6thD81kmoZdGGw3D9z9Wx
+sha384-cAbG8CsjvCs4AOgGe3lyawhkAq3P6JSNH79Q/D0CsKNnmcOQl2eF6J+aBsZO1NtC
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cost-optimization-hub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.994.0/index.min.mjs"
+            "@aws-sdk/client-cost-optimization-hub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.995.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.994.0/index.min.mjs": "sha384-mJ8y6FN73Ue1PcP0+WAIWByw1K9pn3sf1q8QhXPiW2q6thD81kmoZdGGw3D9z9Wx"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.995.0/index.min.mjs": "sha384-cAbG8CsjvCs4AOgGe3lyawhkAq3P6JSNH79Q/D0CsKNnmcOQl2eF6J+aBsZO1NtC"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cost-optimization-hub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.994.0/index.min.mjs"
+                        "@aws-sdk/client-cost-optimization-hub": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.995.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.994.0/index.min.mjs": "sha384-mJ8y6FN73Ue1PcP0+WAIWByw1K9pn3sf1q8QhXPiW2q6thD81kmoZdGGw3D9z9Wx"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cost-optimization-hub@3.995.0/index.min.mjs": "sha384-cAbG8CsjvCs4AOgGe3lyawhkAq3P6JSNH79Q/D0CsKNnmcOQl2eF6J+aBsZO1NtC"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.994.0`)
+* Always pin to a specific version (`@3.995.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cost-optimization-hub/blob/refs/tags/3.994.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cost-optimization-hub/blob/refs/tags/3.995.0/LICENSE
 ```
 
 ---
